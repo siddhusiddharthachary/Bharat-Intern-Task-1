@@ -1,0 +1,236 @@
+
+body{
+    font-family: roboto;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.img1{
+    display: flex;
+    width:50vw;
+    height: 65vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 img{
+    border-radius: 50%;
+    animation: picAnime 3s linear 0s 1;
+}
+
+@keyframes picAnime {
+    from{
+        opacity: 0%;
+        
+    }
+
+}
+
+.aboutme {
+    display: inline-block;
+    font-size: 22px;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    animation: aboutmeAnime 2s ease-out 1;
+    transition: all 0.5s ease;
+    white-space: normal;
+    margin-top: 95px;
+}
+
+.aboutme span {
+    font-size: 25px;
+    color: rgb(100, 100, 195);
+    font-weight: 600;
+}
+
+
+
+@keyframes aboutmeAnime {
+    from {
+        transform: translateX(-10px) translateY(0px);
+        visibility: hidden;
+        opacity: 0%;
+    }
+    
+    to {
+        transform: translateX(0px) translateY(0px);
+        visibility: visible;
+    }
+}
+
+.header3{
+    text-align: center;
+}
+
+
+
+.social0{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 50px;
+}
+
+
+
+.social1 img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: opacity 1s linear(0 0%, 1.26 33.16%);
+}
+.social2 img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: opacity 1s linear(0 0%, 1.26 33.16%);
+}
+.social3 img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: opacity 1s linear(0 0%, 1.26 33.16%);
+}
+.social4 img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: opacity 1s linear(0 0%, 1.26 33.16%);
+}
+
+.insta img.insta-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.yt img.yt-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
+.git img.git-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.fb img.fb-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.skills {
+    margin-top: 250px;
+}
+
+.header2 {
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+}
+
+.skill img {
+    width: 80px; /* Adjust the size of the skill icons */
+    height: 80px;
+}
+
+.skill p {
+    margin-top: 5px;
+}
+
+/* ... Existing CSS code ... */
+
+.skill {
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: all 0.5s ease; /* Add this line for smooth transition */
+}
+
+.skill:hover .tooltip-text {
+    display: block;
+}
+
+
+.contact0{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px;
+    margin-left: 15px;
+}
+
+
+.header4{
+    margin-top: 150px;
+    display: flex;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+.contact1 img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: opacity 1s linear(0 0%, 1.26 33.16%);
+    border-radius: 15px;
+}
+.linkedin img.linkedin-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
+.contact2 img{
+    position: absolute;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    transition: opacity 1s linear(0 0%, 1.26 33.16%);
+    border-radius: 15px;
+}
+.mail img.mail-back:hover{
+    opacity: 0;
+    cursor: pointer;
+}
